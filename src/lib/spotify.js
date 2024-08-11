@@ -28,7 +28,7 @@ class SpotifyClient {
         headers: { Authorization: 'Bearer ' + this.token },
       }
     );
-    console.log(response.data);
+    return response.data;
   }
 }
 
